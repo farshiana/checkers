@@ -1,0 +1,10 @@
+{
+	"presets": ["env"],
+	"plugins": ["transform-object-assign"],
+	"env": {
+		"test": {
+			"presets": ["env"],
+			"plugins": ["transform-es2015-modules-commonjs"]
+		}
+	}
+}

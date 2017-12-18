@@ -1,0 +1,57 @@
+{
+  "name": "checkers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "6.12.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js --ext .vue src",
+    "test": "npm run lint && jest --runInBand --config=tests/jest.config.json",
+    "watch": "NODE_ENV=dev webpack-dev-server --open",
+    "start": "NODE_ENV=prod webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farshiana/checkers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farshiana/checkers/issues"
+  },
+  "homepage": "https://github.com/farshiana/checkers#README",
+  "dependencies": {
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.1.1",
+    "eslint-plugin-vue": "^3.14.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "jest": "^20.0.4",
+    "make-runnable": "^1.3.6",
+    "node-sass": "^4.5.3",
+    "offline-plugin": "^4.8.3",
+    "optimize-css-assets-webpack-plugin": "^3.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-loader": "^13.5.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.3",
+    "vue-toasted": "^1.1.24",
+    "vuejs": "^2.0.18",
+    "vuetify": "^0.17.4",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.9.4",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
